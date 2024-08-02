@@ -35,7 +35,7 @@ main h1 {
   line-height: 2rem;
 }
 
-main div:nth-of-type(1) {
+main > div:nth-child(1) {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   text-align: center;
@@ -61,11 +61,11 @@ main h1 + p + button {
 
 section {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 section h3,
-section img,
+section > img,
 section p {
   padding-block: 1rem;
   padding-inline: 3.5rem;
@@ -75,7 +75,7 @@ section h3 {
   padding-top: 2.5rem;
 }
 
-section img {
+section > p + img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -89,6 +89,7 @@ section img {
   font-size: 14px;
   padding-inline: 1rem;
   padding-block: 2.5rem;
+  margin-block: 3rem;
 }
 
 .testimonianze h2 {
@@ -111,4 +112,58 @@ section img {
 
 .testimonianze h6 {
   font-size: 0.8rem;
+}
+
+.section2 div {
+  border: 1px #dee1e3 solid;
+  margin-inline: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section2 img {
+  width: 100%;
+  padding-inline: center;
+}
+
+.section2 h3 {
+  padding-bottom: 0rem;
+  padding-top: 0.5rem;
+}
+
+.section2 p {
+  padding-top: 1rem;
+}
+
+footer {
+  border: #25a2c3 solid;
+  background-color: #25a2c3;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-inline: 1rem;
+  padding-block: 2.5rem;
+  margin-top: 3rem;
+}
+
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-block: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer div {
+  padding-block: 1rem;
+}
+
+footer hr {
+  width: 150px;
+}
+
+footer h6 {
+  padding-block: 1rem;
 }
