@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap");
+
+body {
+  color: #393d41;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.headings {
+  color: #24a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+header div {
+  text-align: left;
+  padding-left: 3rem;
+  border: black solid;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-block: 20px;
+}
+
+main > div {
+  padding: 13rem;
+  padding-inline: 29rem;
+}
+
+main h1 {
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #24a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
+
+main > div:nth-child(1) {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+main h1 + p {
+  padding-block: 1.5rem;
+  padding-inline: 50px;
+}
+
+main h1 + p + button {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+main > div + section:nth-of-type(1) {
+  padding: 3rem;
+  padding-inline: 6rem;
+}
+
+section > img + div {
+  display: inline-block;
+  padding-left: 7rem;
+}
+
+section h3 {
+  padding-top: 2.5rem;
+}
+
+section > img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  text-align: left;
+  padding-left: 11rem;
+}
+
+.testimonianze {
+  border: #e22d0e solid;
+  background-color: #e22d0e;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-inline: 1rem;
+  padding-block: 2.5rem;
+  margin-block: 3rem;
+}
+
+.testimonianze h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-block: 1rem;
+}
+
+.testimonianze p {
+  font-size: 2rem;
+  font-style: italic;
+  padding-block: 1rem;
+}
+
+.testimonianze h5 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.testimonianze h6 {
+  font-size: 1rem;
+}
+
+.section2 {
+  padding-block: 4rem;
+}
+
+.section2 div {
+  border: 1px #dee1e3 solid;
+  margin-inline: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.section2 img {
+  height: 300px;
+  padding-inline: center;
+}
+
+.section2 h3 {
+  padding-bottom: 0rem;
+  padding-top: 0.5rem;
+}
+
+.section2 p {
+  padding-top: 1rem;
+}
+
+footer {
+  border: #25a2c3 solid;
+  background-color: #25a2c3;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding-inline: 1rem;
+  padding-block: 2.5rem;
+  margin-top: 3rem;
+}
+
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-block: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer div {
+  padding-block: 1rem;
+}
+
+footer hr {
+  width: 150px;
+}
+
+footer h6 {
+  padding-block: 1rem;
+}
