@@ -68,11 +68,13 @@ main h1 + p + button {
 main > div + section:nth-of-type(1) {
   padding: 3rem;
   padding-inline: 6rem;
+  text-align: center;
 }
 
 section > img + div {
   display: inline-block;
   padding-left: 7rem;
+  text-align: left;
 }
 
 section h3 {
@@ -84,7 +86,6 @@ section > img {
   height: 600px;
   border-radius: 50%;
   text-align: left;
-  padding-left: 11rem;
 }
 
 .testimonianze {
@@ -134,6 +135,7 @@ section > img {
 
 .section2 img {
   height: 300px;
+  width: 100%;
   padding-inline: center;
 }
 
